@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26F868FCC87944C5A62D9044 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		354A2CEAC7E4F8B9F5485162 /* KeyboardDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KeyboardDemo.podspec; path = ../KeyboardDemo.podspec; sourceTree = "<group>"; };
+		26F868FCC87944C5A62D9044 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		354A2CEAC7E4F8B9F5485162 /* KeyboardDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KeyboardDemo.podspec; path = ../KeyboardDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52DA675DEB3C81AD0CD290DB /* Pods_KeyboardDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A10A89F70949E48266188D /* Pods-KeyboardDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-KeyboardDemo_Example/Pods-KeyboardDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KeyboardDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* KeyboardDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7344A0715686F01B9CE3E8E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7344A0715686F01B9CE3E8E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		87C7E6658A692B6200E13758 /* Pods_KeyboardDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A2D36FAD0C6FD4D6965DE5 /* Pods-KeyboardDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-KeyboardDemo_Tests/Pods-KeyboardDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE23376C324AADDC1451DC01 /* Pods-KeyboardDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardDemo_Tests/Pods-KeyboardDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				CE23376C324AADDC1451DC01 /* Pods-KeyboardDemo_Tests.debug.xcconfig */,
 				B1A2D36FAD0C6FD4D6965DE5 /* Pods-KeyboardDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
